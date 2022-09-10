@@ -27,7 +27,7 @@ def create_app():
 
     @app.route("/")
     def test():
-        return render_template("base.html")
+        return render_template("userview.html")
 
     return app
 
