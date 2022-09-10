@@ -10,6 +10,10 @@ def login():
 def logout():
     return '<p>Logout</p>'
 
-@auth.route('/sign-up')
+@auth.route('/register')
 def sign_up():
     return '<p>Sign Up!</p>'
+
+@auth.route('/nonce')
+def nonce():
+    pass
