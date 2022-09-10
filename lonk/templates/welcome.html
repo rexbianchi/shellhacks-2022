@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}LONK - Welcome{% endblock %}
+
+{% block head %} 
+    {{ super() }}
+{% endblock %} 
+
+{% block header %} 
+    {{ super() }}
+{% endblock %} 
+
+{% block content %}
+<div class="row p-5 d-flex text-center">
+    <h1>Welcome to LONK</h1>
+    <p>A student-made password management platform.</p>
+</div>
+
+<div class="row p-3 mt-5 mb-5">
+    <div class="col-sm-6 d-flex justify-content-center my-1">
+        <a href="#" class="btn btn-danger">Login</a>
+    </div>
+    <div class="col-sm-6 d-flex justify-content-center my-1">
+        <a href="#" class="btn btn-danger">Register</a>
+    </div>
+
+</div>
+{% endblock %}
