@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}LONK - Welcome{% endblock %}
+
+{% block head %} 
+    {{ super() }}
+{% endblock %} 
+
+{% block header %} 
+    {{ super() }}
+{% endblock %} 
+
+{% block content %}
+<div class="row p-3">
+    <h1>Create Account</h1>
+</div>
+
+<div class="row p-3 mb-5">
+    <input type="text" class="form-control form-control-lg my-2" placeholder="First Name">
+    <input type="text" class="form-control form-control-lg my-2" placeholder="Last Name">
+    <input type="text" class="form-control form-control-lg my-2" placeholder="E-Mail">
+    <input type="text" class="form-control form-control-lg my-2" placeholder="Password">
+    <div class="col my-2 d-flex justify-content-end">
+        <button type="button" class="btn btn-danger btn-lg submit-btn">Submit</button>
+    </div>
+    
+    
+
+</div>
+{% endblock %}
